@@ -1,0 +1,18 @@
+{
+  "name": "Real-time-Collaborative-tool",
+  "version": "0.0.0",
+  "description": "A real-time high performance collaborative tool.",
+  "authors": [
+    "Sazid"
+  ],
+  "license": "MIT",
+  "homepage": "http://facebook.com/sazid4199",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
