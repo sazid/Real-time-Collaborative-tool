@@ -10,8 +10,61 @@ body {
 
 .content {
     padding: 20px;
+    transition: all 1s;
+}
+
+.content p {
+    font-weight: 100;
 }
 
 core-toolbar {
     background-color: #03A9F4;
+}
+
+paper-button.button_blue {
+    color: #4285f4;
+}
+
+/* drawer is always visible on a wide screen
+   so menu button isn't required */
+/*core-drawer-panel:not([narrow]) #navicon {*/
+    /*display: none;*/
+/*}*/
+
+.blue {
+    color: white;
+    background-color: #5677fc;
+}
+
+.red {
+    color: white;
+    background-color: #9c27b0;
+}
+
+.purple {
+    color: white;
+    background-color: #673ab7;
+}
+
+.green {
+    color: white;
+    background-color: #259b24;
+}
+
+.yellow {
+    color: black;
+    background-color: #ffeb3b;
+}
+
+.title {
+    font-size: 20px;
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+
+.pagelets {
+    margin: 20px;
 }
