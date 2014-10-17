@@ -1,0 +1,17 @@
+/*
+~ Bismillahir Rahmanir Rahim, ALLAHU AKBAR
+~ Author: Sazid
+*/
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.content {
+    padding: 20px;
+}
+
+core-toolbar {
+    background-color: #03A9F4;
+}
