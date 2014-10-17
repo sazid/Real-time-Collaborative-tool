@@ -33,7 +33,9 @@
     <link rel="import"
             href="bower_components/polymer/polymer.html">
     <link rel="import"
-          href="bower_components/paper-"
+          href="bower_components/paper-input/paper-input.html">
+    <link rel="import"
+            href="bower_components/core-animated-pages/core-animated-pages.html">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
@@ -106,13 +108,18 @@
             <div class="title blue" hero>Document</div>
             <div class="content">
                 <!--<greeting-tag></greeting-tag>-->
-                <p>This is the container element for the document</p>
+                <p id="intro_paragraph">Start typing in the box below!</p>
+                <paper-input id="document_input"
+                             multiline
+                             rows="4"
+                             floatingLabel
+                             label="Type something..."></paper-input>
             </div>
             <paper-shadow z="1"></paper-shadow>
         </div>
 
         <div flex id="list_box" class="pagelets" ng-show="tab.isSet(2)">
-            <div class="title green" hero>Mappings</div>
+            <div class="title green" hero>Lists</div>
             <div class="content">
                 <!--<greeting-tag></greeting-tag>-->
                 <p>This is the container element for the document</p>
@@ -121,7 +128,7 @@
         </div>
 
         <div flex id="mapping_box" class="pagelets" ng-show="tab.isSet(3)">
-            <div class="title yellow" hero>Lists</div>
+            <div class="title yellow" hero>Mappings</div>
             <div class="content">
                 <!--<greeting-tag></greeting-tag>-->
                 <p></p>

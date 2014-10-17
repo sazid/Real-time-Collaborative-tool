@@ -68,3 +68,7 @@ div {
 .pagelets {
     margin: 20px;
 }
+
+#document_input {
+    width: auto;
+}
